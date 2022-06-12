@@ -1,0 +1,294 @@
+:root {
+    --primary-background-color: #E5E5E5;
+    --secondary-background-color: #2F303A;
+    --accent-background-color: #FFFFFF;
+    --section-button-background-color: #F5F4FA;
+    --primary-color: #757575;
+    --secondary-color: #212121;
+    --accent-color: #FFFFFF;
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway"sans-serif;
+    --normal-font:400;
+    --medium-font: 500;
+    --bold-font: 700;
+    --bolder-font: 900;
+}
+
+body {
+    width: 1600px;
+    background-color: #E5E5E5;
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.03px;
+    margin: 0 auto;
+}
+/*-header*/
+.header {
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items:center;
+   }
+   /*class чтобы скрыть декорацию сылок*/
+   .link {
+    text-decoration: none;
+   }
+   .link:hover,
+   .link:focus {
+    color: #2196F3;
+   }
+   /*class link для элемента <а>*/
+   .menu {
+    display: flex;
+   }
+.menu-logo {
+    color: #2196F3;
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03px;
+    margin-right: 93px;
+    margin-left: 215px;
+    }
+.menu-log {
+    color: #212121;
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+.menu-links {
+    list-style: none;
+    display: flex;
+  }
+.menu-link {
+    color: var(--secondary-color);
+    font-weight: var(--medium-font);
+    font-size: 14px;
+    line-height: 16px;
+}
+/*.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3; */
+}
+.contact {
+    color: var(--primary-color);
+    letter-spacing: 0.02px;
+    margin-left: 331px;
+}
+.contact:first-child{
+    margin-right: 50px;
+}
+.indent {
+    margin-right: 50px;
+}
+.indent:last-child {
+    margin-right: 331px;
+}
+
+    
+    /*end header*/
+    /*slider class*/
+/* 
+   .content {
+       width: 1600px; 
+    }*/
+
+.slider {
+    background-color: var(--secondary-background-color);
+    height: 600px;
+    letter-spacing: 0.06px;
+    text-align: center;
+}  
+.hero {
+    color: var(--accent-color);
+    margin-top: 0px;
+    padding: 200px 452px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.2;
+}
+.button {
+    background-color: #2196F3;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--accent-background-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+}
+.button:hover {
+    background-color: var(--section-button-background-color);
+    color: #212121;
+}
+/*end slider*/
+/*plus class*/
+.plus {
+    width: 1170px;
+    height: 101;
+    text-align: left;
+}
+.hero-one {
+    display: none;
+}
+.menu-item {
+margin-right: 30px;
+}
+.menu-item:first-child {
+    margin-left: 215px;
+}
+.menu-hero {
+    margin-top: 94px;
+    color: #212121;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    height: 16px;
+    width: 270px;
+}
+.text {
+    color: #757575;
+    font-weight: 400;
+    line-height: 1.7;
+    height: 75px;
+    width: 270px;
+}
+/*end plus*/
+/*work class*/
+.work {
+    margin-top: 94px;
+}
+.hero-work {
+    margin-left: 612px;
+    width: 376px;
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.img {
+    margin-top: 0;
+    width: 370px;
+    height: 294px;
+}
+/*end work*/
+/*partners class*/
+.partners {
+    margin-top: 188px;
+    padding: 94px;
+    background-color: var(--section-button-background-color);
+    /*width: 1600px;*/
+    height: 648px;
+}
+.box {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    height: 368px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+/*.box:first-child {
+    margin-left: 215px;
+} как выровнять???*/
+.img-p {
+    
+    width: 270px;
+    height: 260px;
+    }
+.hero-box {
+    text-align: center;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.text-box {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+  
+    text-align: center;
+}
+/*footer class*/
+.footer {
+    background-color: #2F303A;
+    height: 252px;
+    line-height: 1.7;
+    padding-top: 60px;
+    
+}
+.log {
+color: #FFFFFF;
+}
+.menu-footer {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 215px; 
+}
+.adress {
+    color: #FFFFFF;
+   
+}
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+   
+}
+/* end footer class*/
+/*  button class*/
+.button-links {
+    margin-left: 495px;
+}
+.button-link {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border-color: #F5F4FA;
+    margin-top: 94px;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.button-link:first-child {
+    margin-right: 8px;
+}
+.button-link:hover {
+    background-color: #2196F3;
+}
+/*portfolio class*/
+.portfolio {
+  
+}
+.portfolio:first-child {
+
+}
+.portfolio-box {
+    column-width: 370px;
+    height: 404px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+   }
+
+.haed-portfolio {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    margin-top: 20px;
+}
+.portfolio-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+   
+}
